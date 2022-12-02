@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="450.0" prefWidth="350.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="k.zadanie6.CalculatorController">
+   <children>
+      <TextField id="wynik" fx:id="result" alignment="CENTER_RIGHT" editable="false" layoutX="13.0" layoutY="40.0" prefHeight="82.0" prefWidth="323.0" text="0">
+         <font>
+            <Font size="40.0" />
+         </font>
+      </TextField>
+      <Button layoutX="14.0" layoutY="146.0" mnemonicParsing="false" onAction="#btnMCClick" prefHeight="39.0" prefWidth="58.0" text="MC" />
+      <Button layoutX="79.0" layoutY="146.0" mnemonicParsing="false" onAction="#btnMRClick" prefHeight="39.0" prefWidth="58.0" text="MR" />
+      <Button layoutX="146.0" layoutY="146.0" mnemonicParsing="false" onAction="#btnMSClick" prefHeight="39.0" prefWidth="58.0" text="MS" />
+      <Button layoutX="212.0" layoutY="146.0" mnemonicParsing="false" onAction="#btnMplusClick" prefHeight="39.0" prefWidth="58.0" text="M+" />
+      <Button layoutX="277.0" layoutY="146.0" mnemonicParsing="false" onAction="#btnMminusClick" prefHeight="39.0" prefWidth="58.0" text="M-" />
+      <Button layoutX="14.0" layoutY="191.0" mnemonicParsing="false" onAction="#btnUndoClick" prefHeight="39.0" prefWidth="58.0" text="←">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Button>
+      <Button layoutX="79.0" layoutY="191.0" mnemonicParsing="false" onAction="#btnUndoFirstClick" prefHeight="39.0" prefWidth="58.0" text="CE" />
+      <Button layoutX="145.0" layoutY="191.0" mnemonicParsing="false" onAction="#btnUndoAllClick" prefHeight="39.0" prefWidth="58.0" text="C" />
+      <Button layoutX="212.0" layoutY="191.0" mnemonicParsing="false" onAction="#btnPlusMinusClick" prefHeight="39.0" prefWidth="58.0" text="±">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Button>
+      <Button layoutX="277.0" layoutY="191.0" mnemonicParsing="false" onAction="#btnSqrtClick" prefHeight="39.0" prefWidth="58.0" text="√">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Button>
+      <Button layoutX="14.0" layoutY="237.0" mnemonicParsing="false" onAction="#btn7Click" prefHeight="39.0" prefWidth="58.0" text="7" />
+      <Button layoutX="79.0" layoutY="237.0" mnemonicParsing="false" onAction="#btn8Click" prefHeight="39.0" prefWidth="58.0" text="8" />
+      <Button layoutX="145.0" layoutY="237.0" mnemonicParsing="false" onAction="#btn9Click" prefHeight="39.0" prefWidth="58.0" text="9" />
+      <Button layoutX="212.0" layoutY="237.0" mnemonicParsing="false" onAction="#btnDivClick" prefHeight="39.0" prefWidth="58.0" text="/">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Button>
+      <Button layoutX="277.0" layoutY="237.0" mnemonicParsing="false" onAction="#btnPercentClick" prefHeight="39.0" prefWidth="58.0" text="\%">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Button>
+      <Button layoutX="14.0" layoutY="282.0" mnemonicParsing="false" onAction="#btn4Click" prefHeight="39.0" prefWidth="58.0" text="4" />
+      <Button layoutX="79.0" layoutY="282.0" mnemonicParsing="false" onAction="#btn5Click" prefHeight="39.0" prefWidth="58.0" text="5" />
+      <Button layoutX="146.0" layoutY="282.0" mnemonicParsing="false" onAction="#btn6Click" prefHeight="39.0" prefWidth="58.0" text="6" />
+      <Button layoutX="212.0" layoutY="282.0" mnemonicParsing="false" onAction="#btnMultiplyClick" prefHeight="39.0" prefWidth="58.0" text="*">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Button>
+      <Button layoutX="277.0" layoutY="282.0" mnemonicParsing="false" onAction="#btn1xClick" prefHeight="39.0" prefWidth="58.0" text="1/x" />
+      <Button layoutX="14.0" layoutY="327.0" mnemonicParsing="false" onAction="#btn1Click" prefHeight="39.0" prefWidth="58.0" text="1" />
+      <Button layoutX="79.0" layoutY="327.0" mnemonicParsing="false" onAction="#btn2Click" prefHeight="39.0" prefWidth="58.0" text="2" />
+      <Button layoutX="146.0" layoutY="327.0" mnemonicParsing="false" onAction="#btn3Click" prefHeight="39.0" prefWidth="58.0" text="3" />
+      <Button layoutX="212.0" layoutY="327.0" mnemonicParsing="false" onAction="#btnMinusClick" prefHeight="39.0" prefWidth="58.0" text="-">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Button>
+      <Button layoutX="277.0" layoutY="327.0" mnemonicParsing="false" onAction="#btnEqualClick" prefHeight="86.0" prefWidth="58.0" text="=">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Button>
+      <Button layoutX="14.0" layoutY="372.0" mnemonicParsing="false" onAction="#btn0Click" prefHeight="39.0" prefWidth="124.0" text="0" />
+      <Button layoutX="146.0" layoutY="372.0" mnemonicParsing="false" onAction="#btnFractionClick" prefHeight="39.0" prefWidth="58.0" text=",">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Button>
+      <Button layoutX="212.0" layoutY="372.0" mnemonicParsing="false" onAction="#btnPlusClick" prefHeight="39.0" prefWidth="58.0" text="+">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Button>
+      <Label fx:id="label" alignment="CENTER_RIGHT" layoutX="140.0" layoutY="20.0" prefHeight="22.0" prefWidth="194.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
